@@ -1,0 +1,62 @@
+
+  body {
+    margin: 0;
+    font-family: Arial;
+    background-color: azure;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 32px;
+  }
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 20px;
+}
+
+
+.image {
+     
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;  
+}
+.image:hover{
+    transform: scale(1.05);
+}
+
+.image img {
+    width: 100%;  
+    height: auto;  
+    display: block; 
+}
+
+
+.desc {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+  
+  
